@@ -7,11 +7,18 @@ checked word for word against the source it cites before anything is shown as a 
 """
 
 from .corpus import Evidence, by_id, chunk_markdown, load_corpus
+from .retrieval import Bm25, Hit, Index, hashing_embed, rrf, tokenize
 
 __version__ = "0.1.0"
 __all__ = [
+    "Bm25",
     "Evidence",
+    "Hit",
+    "Index",
     "by_id",
     "chunk_markdown",
+    "hashing_embed",
     "load_corpus",
+    "rrf",
+    "tokenize",
 ]
