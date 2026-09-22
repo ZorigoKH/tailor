@@ -7,6 +7,8 @@ checked word for word against the source it cites before anything is shown as a 
 """
 
 from .corpus import Evidence, by_id, chunk_markdown, load_corpus
+from .match import Coverage, Judgment, judge_requirement, match_posting
+from .posting import extract_posting, read_posting, summarize
 from .providers import ModelError, Offline, OpenAICompatible, Usage, make
 from .retrieval import Bm25, Hit, Index, hashing_embed, rrf, tokenize
 from .schema import SchemaError, validate
@@ -16,9 +18,11 @@ from .verify import QuoteCheck, check_quote, unsupported_terms
 __version__ = "0.1.0"
 __all__ = [
     "Bm25",
+    "Coverage",
     "Evidence",
     "Hit",
     "Index",
+    "Judgment",
     "ModelError",
     "Offline",
     "OpenAICompatible",
@@ -29,10 +33,15 @@ __all__ = [
     "by_id",
     "check_quote",
     "chunk_markdown",
+    "extract_posting",
     "hashing_embed",
+    "judge_requirement",
     "load_corpus",
     "make",
+    "match_posting",
+    "read_posting",
     "rrf",
+    "summarize",
     "tokenize",
     "unsupported_terms",
     "validate",
