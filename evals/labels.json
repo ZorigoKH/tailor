@@ -1,0 +1,60 @@
+{
+  "notes": "Hand-written labels for evals/postings. Verdicts are what a careful reader of evidence/ would say; evidence_from names the files that support a covered or partial verdict.",
+  "postings": [
+    {
+      "file": "ai-engineering-intern.txt",
+      "fields": {
+        "title": "AI Engineering Intern (Summer 2027)",
+        "company": "Northwind Consulting",
+        "locations": ["New York, NY"],
+        "deadline": "2026-10-09",
+        "requirements": 7
+      },
+      "requirements": [
+        {"starts_with": "Proficiency in Python", "verdict": "covered", "evidence_from": ["education.md", "talentsnipe.md", "sandwich.md", "unbundle.md", "tailor.md"]},
+        {"starts_with": "Experience building APIs or services", "verdict": "covered", "evidence_from": ["terran.md", "solvesim.md", "education.md"]},
+        {"starts_with": "Strong engineering practices", "verdict": "covered", "evidence_from": ["unbundle.md", "sandwich.md", "terran.md"]},
+        {"starts_with": "Exposure to retrieval and search systems", "verdict": "covered", "evidence_from": ["tailor.md"]},
+        {"starts_with": "Pursuing a bachelor's or master's", "verdict": "covered", "evidence_from": ["education.md"]},
+        {"starts_with": "Nice to have: hands-on experience with agentic patterns", "verdict": "covered", "evidence_from": ["tailor.md"]},
+        {"starts_with": "Nice to have: experience explaining technical work", "verdict": "covered", "evidence_from": ["ey.md"]}
+      ]
+    },
+    {
+      "file": "data-analyst-intern.txt",
+      "fields": {
+        "title": "Data Analyst Intern (Summer 2027)",
+        "company": "Harborline Health",
+        "locations": ["Boston, MA"],
+        "deadline": "2026-11-14",
+        "requirements": 6
+      },
+      "requirements": [
+        {"starts_with": "Working knowledge of SQL", "verdict": "covered", "evidence_from": ["education.md"]},
+        {"starts_with": "Python for data work", "verdict": "covered", "evidence_from": ["talentsnipe.md", "education.md"]},
+        {"starts_with": "Comfort cleaning inconsistent records", "verdict": "covered", "evidence_from": ["talentsnipe.md"]},
+        {"starts_with": "Experience presenting findings", "verdict": "covered", "evidence_from": ["ey.md", "talentsnipe.md"]},
+        {"starts_with": "Nice to have: exposure to dbt", "verdict": "missing"},
+        {"starts_with": "Nice to have: healthcare claims", "verdict": "missing"}
+      ]
+    },
+    {
+      "file": "backend-intern.txt",
+      "fields": {
+        "title": "Backend Engineering Intern (Summer 2027)",
+        "company": "Ridgefield Labs",
+        "locations": ["San Francisco, CA", "New York, NY"],
+        "deadline": "2026-12-01",
+        "requirements": 6
+      },
+      "requirements": [
+        {"starts_with": "TypeScript in production", "verdict": "covered", "evidence_from": ["terran.md", "solvesim.md", "education.md"]},
+        {"starts_with": "Relational databases and schema design", "verdict": "covered", "evidence_from": ["terran.md", "education.md"]},
+        {"starts_with": "Payments or billing integrations", "verdict": "covered", "evidence_from": ["terran.md", "solvesim.md"]},
+        {"starts_with": "Automated testing as a habit", "verdict": "covered", "evidence_from": ["sandwich.md", "unbundle.md", "terran.md"]},
+        {"starts_with": "Nice to have: Kubernetes", "verdict": "missing"},
+        {"starts_with": "Nice to have: on-call", "verdict": "missing"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Ridgefield Labs - Backend Engineering Intern (Summer 2027)
+Location: San Francisco, CA | New York, NY
+Employment type: Intern (full-time)
+Apply by: 2026-12-01
+
+What we're looking for
+- TypeScript in production
+- Relational databases and schema design
+- Payments or billing integrations
+- Automated testing as a habit rather than an afterthought
+- Nice to have: Kubernetes in production
+- Nice to have: on-call experience

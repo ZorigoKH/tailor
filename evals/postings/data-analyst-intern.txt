@@ -1,0 +1,16 @@
+Harborline Health - Data Analyst Intern (Summer 2027)
+Location: Boston, MA
+Team: Commercial Analytics
+Employment type: Intern (full-time)
+Apply by: 2026-11-14
+
+What you'll do
+- Turn messy operational data into dashboards the commercial team trusts
+
+What we're looking for
+- Working knowledge of SQL
+- Python for data work, especially pandas
+- Comfort cleaning inconsistent records from more than one source
+- Experience presenting findings to business stakeholders
+- Nice to have: exposure to dbt or another transformation framework
+- Nice to have: healthcare claims experience

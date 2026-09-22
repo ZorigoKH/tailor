@@ -25,6 +25,9 @@ dev = ["pytest>=7", "ruff>=0.15,<0.16"]
 [project.urls]
 Repository = "https://github.com/ZorigoKH/tailor"
 
+[project.scripts]
+tailor = "tailor.cli:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/tailor"]
 
