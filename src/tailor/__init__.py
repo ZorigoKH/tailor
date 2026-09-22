@@ -6,8 +6,10 @@ into validated fields, requirements are answered from retrieved evidence, and ev
 checked word for word against the source it cites before anything is shown as a fact.
 """
 
+from .agent import Agent, Answer, Step
 from .corpus import Evidence, by_id, chunk_markdown, load_corpus
 from .draft import Draft, draft_letter
+from .evals import EvalReport, Score, run_evals
 from .match import Coverage, Judgment, judge_requirement, match_posting
 from .posting import extract_posting, read_posting, summarize
 from .providers import ModelError, Offline, OpenAICompatible, Usage, make
@@ -18,9 +20,12 @@ from .verify import QuoteCheck, check_quote, unsupported_terms
 
 __version__ = "0.1.0"
 __all__ = [
+    "Agent",
+    "Answer",
     "Bm25",
     "Coverage",
     "Draft",
+    "EvalReport",
     "Evidence",
     "Hit",
     "Index",
@@ -30,6 +35,8 @@ __all__ = [
     "OpenAICompatible",
     "QuoteCheck",
     "SchemaError",
+    "Score",
+    "Step",
     "Tracer",
     "Usage",
     "by_id",
@@ -44,6 +51,7 @@ __all__ = [
     "match_posting",
     "read_posting",
     "rrf",
+    "run_evals",
     "summarize",
     "tokenize",
     "unsupported_terms",
