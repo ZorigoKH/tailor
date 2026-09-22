@@ -7,6 +7,7 @@ checked word for word against the source it cites before anything is shown as a 
 """
 
 from .corpus import Evidence, by_id, chunk_markdown, load_corpus
+from .providers import ModelError, Offline, OpenAICompatible, Usage, make
 from .retrieval import Bm25, Hit, Index, hashing_embed, rrf, tokenize
 from .schema import SchemaError, validate
 
@@ -16,11 +17,16 @@ __all__ = [
     "Evidence",
     "Hit",
     "Index",
+    "ModelError",
+    "Offline",
+    "OpenAICompatible",
     "SchemaError",
+    "Usage",
     "by_id",
     "chunk_markdown",
     "hashing_embed",
     "load_corpus",
+    "make",
     "rrf",
     "tokenize",
     "validate",

@@ -1,0 +1,22 @@
+Northwind Consulting - AI Engineering Intern (Summer 2027)
+Location: New York, NY
+Team: Applied AI
+Employment type: Intern (full-time)
+Apply by: 2026-10-09
+
+What you'll do
+- Build retrieval-augmented applications on modern LLM stacks
+- Stand up evaluation suites and observability for GenAI systems
+- Ship services through the full lifecycle: build, test, deploy, monitor
+
+What we're looking for
+- Proficiency in Python
+- Experience building APIs or services
+- Strong engineering practices: testing, code review, version control and CI/CD
+- Exposure to retrieval and search systems such as vector or hybrid retrieval
+- Pursuing a bachelor's or master's in computer science, data science or a related quantitative field
+- Nice to have: hands-on experience with agentic patterns such as tool use and orchestration
+- Nice to have: experience explaining technical work to non-technical stakeholders
+
+Working mode
+- Co-located with the team at least three days a week
