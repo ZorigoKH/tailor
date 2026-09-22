@@ -7,6 +7,7 @@ checked word for word against the source it cites before anything is shown as a 
 """
 
 from .corpus import Evidence, by_id, chunk_markdown, load_corpus
+from .draft import Draft, draft_letter
 from .match import Coverage, Judgment, judge_requirement, match_posting
 from .posting import extract_posting, read_posting, summarize
 from .providers import ModelError, Offline, OpenAICompatible, Usage, make
@@ -19,6 +20,7 @@ __version__ = "0.1.0"
 __all__ = [
     "Bm25",
     "Coverage",
+    "Draft",
     "Evidence",
     "Hit",
     "Index",
@@ -33,6 +35,7 @@ __all__ = [
     "by_id",
     "check_quote",
     "chunk_markdown",
+    "draft_letter",
     "extract_posting",
     "hashing_embed",
     "judge_requirement",
