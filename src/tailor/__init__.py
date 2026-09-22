@@ -6,4 +6,12 @@ into validated fields, requirements are answered from retrieved evidence, and ev
 checked word for word against the source it cites before anything is shown as a fact.
 """
 
+from .corpus import Evidence, by_id, chunk_markdown, load_corpus
+
 __version__ = "0.1.0"
+__all__ = [
+    "Evidence",
+    "by_id",
+    "chunk_markdown",
+    "load_corpus",
+]
