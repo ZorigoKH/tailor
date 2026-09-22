@@ -10,6 +10,8 @@ from .corpus import Evidence, by_id, chunk_markdown, load_corpus
 from .providers import ModelError, Offline, OpenAICompatible, Usage, make
 from .retrieval import Bm25, Hit, Index, hashing_embed, rrf, tokenize
 from .schema import SchemaError, validate
+from .trace import Tracer
+from .verify import QuoteCheck, check_quote, unsupported_terms
 
 __version__ = "0.1.0"
 __all__ = [
@@ -20,14 +22,18 @@ __all__ = [
     "ModelError",
     "Offline",
     "OpenAICompatible",
+    "QuoteCheck",
     "SchemaError",
+    "Tracer",
     "Usage",
     "by_id",
+    "check_quote",
     "chunk_markdown",
     "hashing_embed",
     "load_corpus",
     "make",
     "rrf",
     "tokenize",
+    "unsupported_terms",
     "validate",
 ]
