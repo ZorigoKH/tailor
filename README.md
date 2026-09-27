@@ -19,7 +19,7 @@ what I *can't* claim as readily as what I can.
 ```
 $ tailor match posting.txt
 
-AI Engineering Intern (Summer 2027) at Northwind Consulting · New York, NY · apply by 2026-10-09 · 7 requirements (5 must)
+AI Engineering Intern (Summer 2027) at Northwind Consulting · New York, NY · Applied AI · apply by 2026-10-09 · 7 requirements (5 must)
 must-have coverage 40%  ·  covered 3  partial 3  missing 1  unsupported 0
 
  + [must] Proficiency in Python
@@ -28,8 +28,14 @@ must-have coverage 40%  ·  covered 3  partial 3  missing 1  unsupported 0
      terran.md:12-12: “Pushed authorization into the database itself with 76 row-level security policies, guarded by an”
  ~ [must] Strong engineering practices: testing, code review, version control and CI/CD
      unbundle.md:12-12: “57 tests, and every number quoted in the README is recomputed by the test suite, so the document”
+ ~ [must] Exposure to retrieval and search systems such as vector or hybrid retrieval
+     tailor.md:8-8: “Built tailor, a retrieval-augmented pipeline that reads a job posting into validated structured ”
+ ~ [must] Pursuing a bachelor's or master's in computer science, data science or a related quantit
+     education.md:10-10: “New York University - Bachelor of Science in Data Science (artificial intelligence concentration”
  - [nice] Nice to have: hands-on experience with agentic patterns such as tool use and orchestrati
      too few of the requirement's words appear in any evidence
+ + [nice] Nice to have: experience explaining technical work to non-technical stakeholders
+     ey.md:14-14: “Spent the summer explaining technical findings to people who owned the risk but not the code, wh”
 
 gaps to close or leave out:
  - Nice to have: hands-on experience with agentic patterns such as tool use and orchestration
